@@ -1,0 +1,23 @@
+.socialmedia-block a{
+  color: brown;
+  text-decoration: underline;
+}
+.version {
+  font-size: smaller;
+  color: indianred;
+}
+.addition{
+  color: dimgray;
+}
+#button-show{
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 8px;
+  width: 80px;
+}
+.tech{
+  list-style-type: circle;
+}
+.git{
+  font-size: small;
+}
