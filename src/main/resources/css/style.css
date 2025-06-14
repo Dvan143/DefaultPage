@@ -1,4 +1,4 @@
-.socialmedia-block a{
+.socialmedia-block a, .currentProject-block a{
   color: brown;
   text-decoration: underline;
 }
@@ -9,13 +9,13 @@
 .addition{
   color: dimgray;
 }
-#button-show{
+#button-proj, #button-soc{
   background-color: cornflowerblue;
   color: white;
   border-radius: 8px;
   width: 80px;
 }
-.tech{
+.tech-social, .tech-curProject{
   list-style-type: circle;
 }
 .git{
