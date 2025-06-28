@@ -12,3 +12,10 @@ function toggleProjTech() {
   table.style.display = isHidden ? 'block' : 'none';
   button.innerText = isHidden ? 'Hide' : 'Show';
 }
+function toggleEmailTech() {
+  const table = document.getElementById('extra-email');
+  const button = document.getElementById('button-email');
+  const isHidden = window.getComputedStyle(table).display === 'none';
+  table.style.display = isHidden ? 'block' : 'none';
+  button.innerText = isHidden ? 'Hide' : 'Show';
+}

@@ -1,4 +1,4 @@
-.socialmedia-block a, .currentProject-block a{
+.socialmedia-block a, .currentProject-block a , .emailverifier-block a{
   color: brown;
   text-decoration: underline;
 }
@@ -9,13 +9,13 @@
 .addition{
   color: dimgray;
 }
-#button-proj, #button-soc{
+#button-proj, #button-soc, #button-email{
   background-color: cornflowerblue;
   color: white;
   border-radius: 8px;
   width: 80px;
 }
-.tech-social, .tech-curProject{
+.tech-social, .tech-curProject , .tech-email{
   list-style-type: circle;
 }
 .git{
